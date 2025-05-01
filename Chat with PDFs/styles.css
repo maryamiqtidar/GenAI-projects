@@ -1,0 +1,96 @@
+/* Base background and text */
+body {
+    background-color: #787276;
+    color: #787276;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header styles */
+.header-box {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header-box h1 {
+    font-size: 3.2em;
+    color: #738276;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header-box p {
+    font-size: 1.2em;
+    color: #B0B0B0;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Input field styling */
+.stTextInput input {
+    background-color: white;
+    color: #FFFFFF;
+    border: 1px solid #344938;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.stTextInput label {
+    color: #738276;
+    font-weight: 500;
+}
+
+/* Button styles */
+.stButton button {
+    background-color: white;
+    color: #738276;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 24px;
+    transition: 0.3s ease;
+    border: none;
+    box-shadow: 0 0 8px #344938;
+}
+
+.stButton button:hover {
+    background-color: #87a38c;
+    box-shadow: 0 0 14px #87a38c;
+}
+
+/* Sidebar style */
+.stSidebar {
+    background-color: #738276;
+}
+
+/* Expander styling */
+.stExpanderHeader {
+    color: #344938;
+}
+
+/* Response box style */
+.response-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #738276;
+    margin-top: 10px;
+    color: #E6F1FF;
+    font-size: 1.1em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    padding-top: 20px;
+}
+
+.footer a {
+    color: #344938;
+    text-decoration: none;
+}
+
+/* Hide Streamlit branding */
+#MainMenu, footer, header {
+    visibility: hidden;
+}
